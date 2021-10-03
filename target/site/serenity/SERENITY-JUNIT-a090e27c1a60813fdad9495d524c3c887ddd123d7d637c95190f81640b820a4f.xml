@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Check sign in" skipped="0" tests="2" time="38.83" timestamp="2021-10-03 11:08:57"><testcase name="User should be able to sign in with valid credentials"/><testcase name="User should not be able to sign in with not valid credentials"/></testsuite>

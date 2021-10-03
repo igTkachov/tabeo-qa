@@ -26,7 +26,10 @@ public class PaymentStep extends CommonStep {
     public void provideCardNumber(String card){ $(CheckoutPage.CARD_NUMBER).waitUntilClickable().type(card); }
 
     @Step
-    public void provideCardExpiryDate(String date){ $(CheckoutPage.CARD_EXPIRY_DATE).waitUntilClickable().type(date); }
+    public void provideCardExpiryDate(String date){
+        waitABit(localTimeout());
+        $(CheckoutPage.CARD_EXPIRY_DATE).waitUntilClickable().type(date);
+    }
 
     @Step
     public void provideCardCvv(String cvv){ $(CheckoutPage.CARD_CVV).waitUntilClickable().type(cvv); }
