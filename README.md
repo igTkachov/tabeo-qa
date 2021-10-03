@@ -10,8 +10,8 @@ Java version: 1.11
 
 Git:
 
-    git clone 
-    cd 
+    git clone https://github.com/igTkachov/tabeo-qa
+    cd tabeo-qa
 
 ## Use Maven to run tests
 <!--Gradle will be added a bit later-->
